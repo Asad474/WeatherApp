@@ -1,0 +1,37 @@
+.input-city{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+}
+
+.input-city input{
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #F0F8FF;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    color: black;
+    outline: none;
+}
+
+.input-city .search-city{
+    cursor: pointer;
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    font-size: 20px;
+}
+
+@media (max-width: 600px){
+    .input-city input{
+        font-size: 17px;
+    }
+
+    .input-city .search-city{
+        font-size: 17px;
+    }
+}

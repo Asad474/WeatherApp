@@ -1,0 +1,73 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content .info{
+    margin: 30px auto;
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.content .details{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.content .details .wind{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #CFECEC;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 6px;
+    color: #000;
+    width: 42%;
+    padding: 10px;
+}
+
+.content .windImg{
+    height: 70px;
+    width: 70px;
+}
+
+.content .locationImg{
+    height: 40px;
+    width: 30px;
+}
+
+.content .details .location{
+    gap: 2px;
+}
+
+.content .details .latlong{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .details .latlong .lat-long{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+@media (max-width: 600px){
+    .content .info{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .content .details .wind{
+        width: 37%;
+    }
+
+    .content .windImg{
+        height: 38px;
+        width: 38px;
+    }
+}
