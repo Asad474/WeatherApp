@@ -2,8 +2,6 @@ import React, {useState, useEffect} from 'react';
 import InputLocation from './components/InputLocation/InputLocation';
 import WeatherDetails from './components/WeatherDetails/WeatherDetails';
 import './App.css';
-// import dotenv from 'dotenv';
-// dotenv.config();
 
 function App() {
   const [location, setLocation] = useState('');
